@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style>      
+       .calculator{
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height:95vh;
+            width: 50vh;
+            font-weight: bold;
+            border-radius: 20px;
+            position: relative;
+            top:2vh;
+            left:75vh;
+        }
+        .ac,.signs,.percent,.num1,.num2,.num3,.divide,.multiply,
+        .num4,.num5,.num6,.subract,.num7,.num8,.num9,.add,.num11,.equal{
+            background-color: black;
+            color: wheat;
+            height: 70px;
+            width: 70px;
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            align-items: center;            
+            font-size: xx-large;
+             line-height: 70px;
+             margin: 7px;           
+        }
+        .r1 {
+            display: flex;
+            align-items: center;
+            padding: 7px;
+            width: 90%;
+            position: absolute;         
+            top: 33vh;
+            left:2vh;     
+        }
+        .r2 {
+            display: flex;
+            align-items: center;
+            padding: 7px;
+            width: 90%; 
+            position:absolute;
+            top: 44vh;
+            left:2vh;  
+        }
+        .r3 {
+            display: flex;
+             align-items: center;
+             padding: 7px;
+             width: 90%; 
+            position: absolute;
+            top: 55vh;
+            left:2vh;  
+        }
+        .r4{
+            display: flex;
+            align-items: center;
+            width: 90%;       
+            padding: 7px;            
+            position: absolute;
+            top: 66vh;
+            left: 2vh;    
+        }
+        .r5{
+            display: flex;
+            align-items: center;
+            width: 90%;       
+            padding: 7px; 
+            position:absolute;
+            top: 78vh;
+           left: 2vh;
+        }
+        .num10{
+            background-color: lightgray;
+            color: black;
+            display: flex;
+            justify-content: center;
+            height: 70px;
+            width: 160px;
+            border-radius: 50px;          
+            font-size: xx-large;
+            line-height: 70px;
+            margin: 9px;
+        }
+        .number{
+            position: absolute;
+            display: flex;
+            top: 25vh;
+            left: 23vh;
+            color: white;
+            font-size: 50px;
+        }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color:darkgoldenrod;
+        position: relative;
+        left:10px;
+    }
+    h1:hover{
+        background-color: violet;
+        opacity: 0.1;
+    }
+   div:active{
+    background-color: rgb(255, 30, 169);
+   } 
+        
+        .number{
+            position: absolute;
+            display: flex;
+            top: 25vh;
+            left: 29vh;
+            color: white;
+            font-size: 40px;
+        }
+        .number1{
+            position: absolute;
+            display: flex;
+            top: 25vh;
+            left: 33vh;
+            color: wheat;
+            font-size: 40px;
+        }
+  </style>
+</head>
+<body>
+    <h1>Calculator</h1>
+    <div class="calculator">
+        <div class="number">98/125</div>
+        <div class="r1">
+            <div class="ac">AC</div>
+            <div class="signs">+/<sup>-</sup></div>
+            <div  class="percent">%</div>
+            <div style="background-color: salmon;color: white;" class="divide">÷</div>
+        </div>
+        <div class="r2">
+            <div class="num1">7</div>
+            <div class="num2">8</div>
+            <div  class="num3">9</div>
+            <div style="background-color: salmon;color: white;" class="multiply">x</div>
+        </div>
+        <div class="r3">
+            <div class="num4">4</div>
+            <div class="num5">5</div>
+            <div  class="num6">6</div>
+            <div style="background-color:salmon;color: white;" class="subract">-</div>
+        </div>
+        <div class="r4">
+            <div class="num7">1</div>
+            <div class="num8">2</div>
+            <div  class="num9">3</div>
+            <div style="background-color: salmon;color: white;" class="add">+</div>
+        </div>
+        <div class="r5">
+            <div class ="num10">0</div>
+            <div class="num11">.</div>
+            <div style="background-color: salmon;color: rgb(177, 22, 22);" class="equal">=</div>
+        </div> 
+       
+      
+    </div>
+</body>
+</html>
